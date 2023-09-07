@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/im02"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="291dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="359dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword3"
+        android:layout_width="291dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="302dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="292dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="250dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword5"
+        android:layout_width="291dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="527dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword4"
+        android:layout_width="291dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="584dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress3"
+        android:layout_width="292dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="475dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
